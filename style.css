@@ -9,13 +9,15 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color: #f4e4ba;
+    overflow-y: hidden;
 }
 
 .container{
     background-color: #fff;
     padding: 2rem;
+    padding-right: 2.3rem;
     border-radius: 1rem;
-    min-height: 45vh;
+    min-height: 30vh;
     width: 40vh;
 }
 
@@ -70,6 +72,8 @@ form input{
 
 .msg{
     margin: 2rem 0 2rem 0;
+    justify-content: center;
+    display: flex;
 }
 
 form button{
