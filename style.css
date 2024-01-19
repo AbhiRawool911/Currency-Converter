@@ -101,3 +101,17 @@ form button{
         padding-bottom: 45px;
     }
 }
+
+@media(min-width:700px) and (max-width:2000px){
+    .container{
+        min-height: 22rem;
+        max-width: 20rem;
+    }
+}
+
+@media(min-width:2000px) and (max-width:3000px){
+    .container{
+        min-height: 25rem;
+        max-width: 30rem;
+    }
+}
