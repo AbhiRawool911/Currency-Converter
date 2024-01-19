@@ -80,16 +80,24 @@ form button{
     cursor: pointer;
 }
 
-@media screen and (max-width:550px){
+@media(min-width:260px) and (max-width:360px){
     .container{
-        min-height: 38vh;
-        width: 33vh;
+        height: 325px;
+        width: 212px;
     }
 }
 
-@media screen and (min-width:700px){
+@media(min-width:360px) and (max-width:560px){
     .container{
-        min-height: 25vh;
-        width: 25vh;
+        height: 340px;
+        width: 275px;
+    }
+}
+
+@media (width:360px) {
+    .container{
+        height: 325px;
+        width: 245px;
+        padding-bottom: 45px;
     }
 }
